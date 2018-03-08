@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <!-- Meta, title, CSS, favicons, etc. -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="images/rockiq_logo.png" type="image/png">
+  <title>RockIQ | </title>
+  <!-- Bootstrap -->
+  <link href="../vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link href="../vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <!-- NProgress -->
+  <link href="../vendors/nprogress/nprogress.css" rel="stylesheet">
+  <!-- iCheck -->
+  <link href="../vendors/iCheck/skins/flat/green.css" rel="stylesheet">
+  <!-- bootstrap-progressbar -->
+  <link href="../vendors/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css" rel="stylesheet">
+  <!-- JQVMap -->
+  <link href="../vendors/jqvmap/dist/jqvmap.min.css" rel="stylesheet">
+  <!-- bootstrap-daterangepicker -->
+  <link href="../vendors/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet">
+  <!-- Custom Theme Style -->
+  <link href="../build/css/custom.min.css" rel="stylesheet"> </head>
+
+<body class="nav-md">
+  <div class="container body">
+    <div class="main_container">
+      <div class="col-md-3 left_col">
+        <div class="left_col scroll-view">
+          <div class="navbar nav_title" style="border: 0;">
+            <a href="rockiqindex.html" class="site_title"><img src="images/rockiq_logo_50.png">  <span>   RockIQ</span></a>
+          </div>
+          <div class="clearfix"></div>
+          <!-- menu profile quick info -->
+          <div class="profile clearfix">
+            <div class="profile_pic">
+              <img src="images/Shawn Face_BW2.png" alt="..." class="img-circle profile_img"> </div>
+            <div class="profile_info"> <span>Welcome,</span>
+              <h2>Shawn Razek</h2>
+            </div>
+          </div>
+          <!-- /menu profile quick info -->
+          <br>
+          <!-- sidebar menu -->
+          <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+            <div class="menu_section">
+              <ul class="nav side-menu">
+                <li>
+                  <a href="RockIQindex.html"><i class="fa fa-home"></i> RockIQ Dashboard </a>
+                </li>
+                <li>
+                  <a><i class="fa fa-line-chart"></i> RockIQ Stock Picks <span class="fa fa-chevron-down"></span></a>
+                  <ul class="nav child_menu">
+                    <li>
+                      <a href="RockIQWeekPicks.html">This Week's Picks</a>
+                    </li>
+                    <li>
+                      <a href="RockIQHistoricalPicks.html">Historical Picks</a>
+                    </li>
+                  </ul>
+                </li>
+                <!--
+                <li>
+                  <a><i class="fa fa-edit"></i> Forms <span class="fa fa-chevron-down"></span></a>
+                  <ul class="nav child_menu">
+                    <li>
+                      <a href="form.html">General Form</a>
+                    </li>
+                    <li>
+                      <a href="form_advanced.html">Advanced Components</a>
+                    </li>
+                    <li>
+                      <a href="form_validation.html">Form Validation</a>
+                    </li>
+                    <li>
+                      <a href="form_wizards.html">Form Wizard</a>
+                    </li>
+                    <li>
+                      <a href="form_upload.html">Form Upload</a>
+                    </li>
+                    <li>
+                      <a href="form_buttons.html">Form Buttons</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a><i class="fa fa-desktop"></i> UI Elements <span class="fa fa-chevron-down"></span></a>
+                  <ul class="nav child_menu">
+                    <li>
+                      <a href="general_elements.html">General Elements</a>
+                    </li>
+                    <li>
+                      <a href="media_gallery.html">Media Gallery</a>
+                    </li>
+                    <li>
+                      <a href="typography.html">Typography</a>
+                    </li>
+                    <li>
+                      <a href="icons.html">Icons</a>
+                    </li>
+                    <li>
+                      <a href="glyphicons.html">Glyphicons</a>
+                    </li>
+                    <li>
+                      <a href="widgets.html">Widgets</a>
+                    </li>
+                    <li>
+                      <a href="invoice.html">Invoice</a>
+                    </li>
+                    <li>
+                      <a href="inbox.html">Inbox</a>
+                    </li>
+                    <li>
+                      <a href="calendar.html">Calendar</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a><i class="fa fa-table"></i> Tables <span class="fa fa-chevron-down"></span></a>
+                  <ul class="nav child_menu">
+                    <li>
+                      <a href="tables.html">Tables</a>
+                    </li>
+                    <li>
+                      <a href="tables_dynamic.html">Table Dynamic</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a><i class="fa fa-bar-chart-o"></i> Data Presentation <span class="fa fa-chevron-down"></span></a>
+                  <ul class="nav child_menu">
+                    <li>
+                      <a href="chartjs.html">Chart JS</a>
+                    </li>
+                    <li>
+                      <a href="chartjs2.html">Chart JS2</a>
+                    </li>
+                    <li>
+                      <a href="morisjs.html">Moris JS</a>
+                    </li>
+                    <li>
+                      <a href="echarts.html">ECharts</a>
+                    </li>
+                    <li>
+                      <a href="other_charts.html">Other Charts</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a><i class="fa fa-clone"></i>Layouts <span class="fa fa-chevron-down"></span></a>
+                  <ul class="nav child_menu">
+                    <li>
+                      <a href="fixed_sidebar.html">Fixed Sidebar</a>
+                    </li>
+                    <li>
+                      <a href="fixed_footer.html">Fixed Footer</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="menu_section">
+              <h3>Live On</h3>
+              <ul class="nav side-menu">
+                <li>
+                  <a><i class="fa fa-bug"></i> Additional Pages <span class="fa fa-chevron-down"></span></a>
+                  <ul class="nav child_menu">
+                    <li>
+                      <a href="e_commerce.html">E-commerce</a>
+                    </li>
+                    <li>
+                      <a href="projects.html">Projects</a>
+                    </li>
+                    <li>
+                      <a href="project_detail.html">Project Detail</a>
+                    </li>
+                    <li>
+                      <a href="contacts.html">Contacts</a>
+                    </li>
+                    <li>
+                      <a href="profile.html">Profile</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a><i class="fa fa-windows"></i> Extras <span class="fa fa-chevron-down"></span></a>
+                  <ul class="nav child_menu">
+                    <li>
+                      <a href="page_403.html">403 Error</a>
+                    </li>
+                    <li>
+                      <a href="page_404.html">404 Error</a>
+                    </li>
+                    <li>
+                      <a href="page_500.html">500 Error</a>
+                    </li>
+                    <li>
+                      <a href="plain_page.html">Plain Page</a>
+                    </li>
+                    <li>
+                      <a href="login.html">Login Page</a>
+                    </li>
+                    <li>
+                      <a href="pricing_tables.html">Pricing Tables</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a><i class="fa fa-sitemap"></i> Multilevel Menu <span class="fa fa-chevron-down"></span></a>
+                  <ul class="nav child_menu">
+                    <li>
+                      <a href="#level1_1">Level One</a>
+                    </li>
+                    <li>
+                      <a>Level One<span class="fa fa-chevron-down"></span></a>
+                      <ul class="nav child_menu">
+                        <li class="sub_menu">
+                          <a href="level2.html">Level Two</a>
+                        </li>
+                        <li>
+                          <a href="#level2_1">Level Two</a>
+                        </li>
+                        <li>
+                          <a href="#level2_2">Level Two</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#level1_2">Level One</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="javascript:void(0)"><i class="fa fa-laptop"></i> Landing Page <span class="label label-success pull-right">Coming Soon</span></a>
+                </li>
+              </ul>
+            -->
+            </div>
+          </div>
+          <!-- /sidebar menu -->
+          <!-- /menu footer buttons -->
+          <div class="sidebar-footer hidden-small">
+            <a data-toggle="tooltip" data-placement="top" title="Settings"> <span class="glyphicon glyphicon-cog" aria-hidden="true"></span> </a>
+            <a data-toggle="tooltip" data-placement="top" title="FullScreen"> <span class="glyphicon glyphicon-fullscreen" aria-hidden="true"></span> </a>
+            <a data-toggle="tooltip" data-placement="top" title="Lock"> <span class="glyphicon glyphicon-eye-close" aria-hidden="true"></span> </a>
+            <a data-toggle="tooltip" data-placement="top" title="Logout" href="login.html"> <span class="glyphicon glyphicon-off" aria-hidden="true"></span> </a>
+          </div>
+          <!-- /menu footer buttons -->
+        </div>
+      </div>
+      <!-- top navigation -->
+      <div class="top_nav">
+        <div class="nav_menu">
+          <nav>
+            <div class="nav toggle">
+              <a id="menu_toggle"><i class="fa fa-bars"></i></a>
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+              <li class="">
+                <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                  <img src="images/Shawn Face_BW2.png" alt="">Shawn Razek <span class=" fa fa-angle-down"></span> </a>
+                <ul class="dropdown-menu dropdown-usermenu pull-right">
+                  <li>
+                    <a href="profile.html"> <span class="badge bg-red pull-right">Upgrade</span> <span>Profile</span> </a>
+                  </li>
+                  <li>
+                    <a href="https://www.rockiq.com">Help</a>
+                  </li>
+                  <li>
+                    <a href="login.html"><i class="fa fa-sign-out pull-right"></i> Log Out</a>
+                  </li>
+                </ul>
+              </li>
+            <!--
+                <li role="presentation" class="dropdown">
+                  <a href="javascript:;" class="dropdown-toggle info-number" data-toggle="dropdown" aria-expanded="false">
+                    <i class="fa fa-envelope-o"></i>
+                    <span class="badge bg-green">6</span>
+                  </a>
+                  <ul id="menu1" class="dropdown-menu list-unstyled msg_list" role="menu">
+                    <li>
+                      <a>
+                        <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+                        <span>
+                          <span>John Smith</span>
+                          <span class="time">3 mins ago</span>
+                        </span>
+                        <span class="message">
+                          Film festivals used to be do-or-die moments for movie makers. They were where...
+                        </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a>
+                        <span class="image"><img src="images/Shawn Face_BW2.png" alt="Profile Image" /></span>
+                        <span>
+                          <span>Shawn Razek</span>
+                          <span class="time">3 mins ago</span>
+                        </span>
+                        <span class="message">
+                          Film festivals used to be do-or-die moments for movie makers. They were where...
+                        </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a>
+                        <span class="image"><img src="images/Shawn Face_BW2.png" alt="Profile Image" /></span>
+                        <span>
+                          <span>Shawn Razek</span>
+                          <span class="time">3 mins ago</span>
+                        </span>
+                        <span class="message">
+                          Film festivals used to be do-or-die moments for movie makers. They were where...
+                        </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a>
+                        <span class="image"><img src="images/Shawn Face_BW2.png" alt="Profile Image" /></span>
+                        <span>
+                          <span>Shawn Razek</span>
+                          <span class="time">3 mins ago</span>
+                        </span>
+                        <span class="message">
+                          Film festivals used to be do-or-die moments for movie makers. They were where...
+                        </span>
+                      </a>
+                    </li>
+                    <li>
+                      <div class="text-center">
+                        <a>
+                          <strong>See All Alerts</strong>
+                          <i class="fa fa-angle-right"></i>
+                        </a>
+                      </div>
+                    </li>
+                  </ul>
+                </li>
+              -->
+              </ul>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <!-- /top navigation -->
+
+      <!-- page content -->
+      <div class="right_col" role="main">
+      <div class ="Row">
+        <div class="top_search col-md-50 col-sm-50 col-xs-50 form-group">
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Enter a Company or Stock Symbol">
+              <span class="input-group-btn">
+              <button class="btn btn-default" type="button">Search!</button>
+              </span>
+          </div>
+      </div>
+      <div class ="row">
+        <div class="x_panel">
+        <h2> Apple | NASDAQ: AAPL </h2>
+      </div>
+      </div>
+        <!-- top tiles -->
+        <div class="row tile_count">
+          <div class="col-md-25 col-sm-4 col-xs-6 tile_stats_count"> <span class="count_top"><i class="fa fa-usd"></i> Current Price</span>
+            <div class="count">$176.20</div> <span class="count_bottom"></div>
+          <div class="col-md-25 col-sm-4 col-xs-6 tile_stats_count"> <span class="count_top"><i class="fa fa-angle-up"></i> Today's High</span>
+            <div class="count green">$188.50</div> <span class="count_bottom"> </div>
+          <div class="col-md-25 col-sm-4 col-xs-6 tile_stats_count"> <span class="count_top"><i class="fa fa-angle-down"></i> Today's Low</span>
+            <div class="count red">$177.00</div> </div>
+         <!-- <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count"> <span class="count_top"><i class="fa fa-user"></i> Total Females</span>
+            <div class="count">4,567</div> <span class="count_bottom"><i class="red"><i class="fa fa-sort-desc"></i>12% </i> From last Week</span> </div>
+          <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count"> <span class="count_top"><i class="fa fa-user"></i> Total Collections</span>
+            <div class="count">2,315</div> <span class="count_bottom"><i class="green"><i class="fa fa-sort-asc"></i>34% </i> From last Week</span> </div>
+          <div class="col-md-2 col-sm-4 col-xs-6 tile_stats_count"> <span class="count_top"><i class="fa fa-user"></i> Total Connections</span>
+            <div class="count">7,325</div> <span class="count_bottom"><i class="green"><i class="fa fa-sort-asc"></i>34% </i> From last Week</span> </div>
+        -->
+        </div>
+        <!-- /top tiles -->
+        <!--
+        <div class="row">
+            <div class="col-md-6 col-sm-6 col-xs-6">
+            <div class="x_panel">
+              <h3> RockIQs Analysis </h3>
+              <canvas width="300" height="200" id="chart_gauge_01" class="" style="width: 300px; height: 100px;"></canvas>
+                    <div class="goal-wrapper"> <span id="gauge-text" class="gauge-value pull-left">0</span> <span class="gauge-value pull-left">%</span> 
+                    <span id="goal-text" class="goal-value">Buy</span> </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-3 col-xs-12 bg-white">
+                <div class="x_title">
+                  <h2>Top Campaign Performance</h2>
+                </div>
+        </div> 
+        <br>
+      -->
+<div class="row">
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="x_panel tile fixed_height_320">
+              <div class="x_title">
+                <h2>RockIQ Analysis</h2>
+                <div class="clearfix"></div>
+              </div>
+              <div class="x_content">
+              <div class="col-md-9 col-sm-9 col-xs-12" style="width: 300px; margin:auto;">
+                        <canvas width="300" height="200" id="chart_gauge_02" class="" style="width: 300px; height: 200px;"></canvas>
+                        <div class="goal-wrapper">
+                          <span id="gauge-text2" class="gauge-value pull-left">Sell</span>
+                          <span id="goal-text2" class="goal-value pull-right">Buy</span>
+                        </div>
+                <!--
+                <canvas width="300" height="200" id="chart_gauge_01" class="" style="width: 300px; height: 100px;"></canvas>
+                    <div class="goal-wrapper"> <span id="gauge-text" class="gauge-value">100</span> <span class="gauge-value pull-left"></span> 
+                    <span id="goal-text" class="goal-value">Buy</span> </div>
+                  -->
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="x_panel tile fixed_height_320 overflow_hidden">
+              <div class="x_title">
+                <h2>Sentiment Analysis</h2>
+                <div class="clearfix"></div>
+              </div>
+              <br>
+              <br>
+              <div class="x_content">
+                <table class="" style="width:100%">
+                  <tbody>
+                      <td> <canvas class="canvasDoughnut" height="140" width="140" style="margin: 15px 10px 10px 0"></canvas> </td>
+                      <td>
+                        <table class="tile_info">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <p><i class="fa fa-square blue"></i>Buy </p>
+                              </td>
+                              <td>70%</td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <p><i class="fa fa-square green"></i>Sell </p>
+                              </td>
+                              <td>10%</td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <p><i class="fa fa-square purple"></i>Hold </p>
+                              </td>
+                              <td>20%</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          <!--
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="x_panel tile fixed_height_320">
+              <div class="x_title">
+                <h2>The Details</h2>
+                <div class="clearfix"></div>
+              </div>
+              <div class="x_content">
+                <div class="dashboard-widget-content">
+                  <ul class="quick-list">
+                    <li><i class="fa fa-calendar-o"></i>
+                      <a href="#">Settings</a>
+                    </li>
+                    <li><i class="fa fa-bars"></i>
+                      <a href="#">Subscription</a>
+                    </li>
+                    <li><i class="fa fa-bar-chart"></i>
+                      <a href="#">Auto Renewal</a>
+                    </li>
+                    <li><i class="fa fa-line-chart"></i>
+                      <a href="#">Achievements</a>
+                    </li>
+                    <li><i class="fa fa-bar-chart"></i>
+                      <a href="#">Auto Renewal</a>
+                    </li>
+                    <li><i class="fa fa-line-chart"></i>
+                      <a href="#">Achievements</a>
+                    </li>
+                    <li><i class="fa fa-area-chart"></i>
+                      <a href="#">Logout</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        -->
+         <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="x_panel tile fixed_height_320">
+              <div class="x_title">
+                <h2>The Details</h2>
+                <div class="clearfix"></div>
+              </div>
+              <div class="x_content">
+                <p>
+                  Apple Inc. designs, manufactures and markets mobile communication and media devices, personal computers and portable digital music players. The Company sells a range of related software, services, accessories, networking solutions, and third-party digital content and applications. The Company's segments include the Americas, Europe, Greater China, Japan and Rest of Asia Pacific. The Americas segment includes both North and South America. The Europe segment includes European countries, India, the Middle East and Africa. The Greater China segment includes China, Hong Kong and Taiwan. The Rest of Asia Pacific segment includes Australia and the Asian countries not included in the Company's other operating segments. Its products and services include iPhone, iPad, Mac, iPod, Apple Watch, Apple TV, a portfolio of consumer and professional software applications, iPhone OS (iOS), OS X and watchOS operating systems, iCloud, Apple Pay and a range of accessory, service and support offerings.
+               </p>
+             </div>
+           </div>
+         </div>
+        </div>
+        <br>
+
+
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="dashboard_graph">
+              <div class="row x_title">
+                <div class="col-md-6">
+                  <h3>Financial Graph</h3>
+                </div>
+              </div>
+              <div class="col-md-12 col-sm-12 col-xs-12">
+              <!-- TradingView Widget BEGIN -->
+                <div class="tradingview-widget-container">
+                  <div id="tv-medium-widget"></div>
+                  <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+                  <script type="text/javascript">
+                  new TradingView.MediumWidget(
+                  {
+                  "container_id": "tv-medium-widget",
+                  "symbols": [
+                    [
+                      "Apple",
+                      "AAPL "
+                    ]
+                  ],
+                  "greyText": "Quotes by",
+                  "gridLineColor": "#e9e9ea",
+                  "fontColor": "#83888D",
+                  "underLineColor": "#dbeffb",
+                  "trendLineColor": "#4bafe9",
+                  "width": "100%",
+                  "height": "500px",
+                  "locale": "en"
+                }
+                  );
+                  </script>
+                </div>
+                <!-- TradingView Widget END -->
+              </div>
+              <div class="clearfix"></div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <br>
+
+        <div class="row">
+          <div class="col-md-6 col-sm-6 col-xs-12">
+          <div class="x_panel">
+              <div class="x_title">
+                <h3>Chatter</h3>
+                <div class="clearfix"></div>
+              </div>
+              <div class="x_content">
+                <div class="dashboard-widget-content">
+                  <ul class="list-unstyled timeline widget">
+                    <li>
+                      <div class="block">
+                        <div class="block_content">
+                          <h2 class="title">
+                            <a>Who Needs Sundance When You’ve Got&nbsp;Crowdfunding?</a>
+                          </h2>
+                          <div class="byline"> <span>13 hours ago</span> by
+                            <a>Jane Smith</a>
+                          </div>
+                          <p class="excerpt">Film festivals used to be do-or-die moments for movie makers. They were where you met the producers that could fund your project, and if the buyers liked your flick, they’d pay to Fast-forward and…
+                            <a>Read&nbsp;More</a>
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="block">
+                        <div class="block_content">
+                          <h2 class="title">
+                            <a>Who Needs Sundance When You’ve Got&nbsp;Crowdfunding?</a>
+                          </h2>
+                          <div class="byline"> <span>13 hours ago</span> by
+                            <a>Jane Smith</a>
+                          </div>
+                          <p class="excerpt">Film festivals used to be do-or-die moments for movie makers. They were where you met the producers that could fund your project, and if the buyers liked your flick, they’d pay to Fast-forward and…
+                            <a>Read&nbsp;More</a>
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="block">
+                        <div class="block_content">
+                          <h2 class="title">
+                            <a>Who Needs Sundance When You’ve Got&nbsp;Crowdfunding?</a>
+                          </h2>
+                          <div class="byline"> <span>13 hours ago</span> by
+                            <a>Jane Smith</a>
+                          </div>
+                          <p class="excerpt">Film festivals used to be do-or-die moments for movie makers. They were where you met the producers that could fund your project, and if the buyers liked your flick, they’d pay to Fast-forward and…
+                            <a>Read&nbsp;More</a>
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="block">
+                        <div class="block_content">
+                          <h2 class="title">
+                            <a>Who Needs Sundance When You’ve Got&nbsp;Crowdfunding?</a>
+                          </h2>
+                          <div class="byline"> <span>13 hours ago</span> by
+                            <a>Jane Smith</a>
+                          </div>
+                          <p class="excerpt">Film festivals used to be do-or-die moments for movie makers. They were where you met the producers that could fund your project, and if the buyers liked your flick, they’d pay to Fast-forward and…
+                            <a>Read&nbsp;More</a>
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="x_panel">
+                  <div class="x_title">
+                    <h3>Search History</h3>
+                    <div class="clearfix"></div>
+                  </div>
+                  <div class="x_content">
+
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th>Stock Symbol</th>
+                          <th>Company Name</th>
+                          <th>Result</th>
+                          <th>Time Since Search</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row">AAPL</th>
+                          <td>Apple</td>
+                          <td class="green">Buy</td>
+                          <td>2m</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">GOOGL</th>
+                          <td>Google</td>
+                          <td class="green">Buy</td>
+                          <td>5m</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">AMZN</th>
+                          <td>Amazon</td>
+                          <td class="red">Sell</td>
+                          <td>1hr</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">WSD</th>
+                          <td>Western Digital</td>
+                          <td class="">Hold</td>
+                          <td>2hr</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">AEO</th>
+                          <td>American Eagle</td>
+                          <td class="green">Buy</td>
+                          <td>2hr</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">WM</th>
+                          <td>Waste Management</td>
+                          <td class="red">Sell</td>
+                          <td>5hr</td>
+                        </tr>
+                      </tbody>
+                    </table>
+
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+        
+        
+      <!-- /page content -->
+      <!-- footer content -->
+      <footer>
+        <div class="pull-right"> RockIQ
+          <a href="https://rockiq.com">©2018 </a>
+        </div>
+        <div class="clearfix"></div>
+      </footer>
+      <!-- /footer content -->
+    </div>
+  </div>
+  <!-- jQuery -->
+  <script src="../vendors/jquery/dist/jquery.min.js"></script>
+  <!-- Bootstrap -->
+  <script src="../vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+  <!-- FastClick -->
+  <script src="../vendors/fastclick/lib/fastclick.js"></script>
+  <!-- NProgress -->
+  <script src="../vendors/nprogress/nprogress.js"></script>
+  <!-- Chart.js -->
+  <script src="../vendors/Chart.js/dist/Chart.min.js"></script>
+  <!-- gauge.js -->
+  <script src="../vendors/gauge.js/dist/gauge.min.js"></script>
+  <!-- bootstrap-progressbar -->
+  <script src="../vendors/bootstrap-progressbar/bootstrap-progressbar.min.js"></script>
+  <!-- iCheck -->
+  <script src="../vendors/iCheck/icheck.min.js"></script>
+  <!-- Skycons -->
+  <script src="../vendors/skycons/skycons.js"></script>
+  <!-- Flot -->
+  <script src="../vendors/Flot/jquery.flot.js"></script>
+  <script src="../vendors/Flot/jquery.flot.pie.js"></script>
+  <script src="../vendors/Flot/jquery.flot.time.js"></script>
+  <script src="../vendors/Flot/jquery.flot.stack.js"></script>
+  <script src="../vendors/Flot/jquery.flot.resize.js"></script>
+  <!-- Flot plugins -->
+  <script src="../vendors/flot.orderbars/js/jquery.flot.orderBars.js"></script>
+  <script src="../vendors/flot-spline/js/jquery.flot.spline.min.js"></script>
+  <script src="../vendors/flot.curvedlines/curvedLines.js"></script>
+  <!-- DateJS -->
+  <script src="../vendors/DateJS/build/date.js"></script>
+  <!-- JQVMap -->
+  <script src="../vendors/jqvmap/dist/jquery.vmap.js"></script>
+  <script src="../vendors/jqvmap/dist/maps/jquery.vmap.world.js"></script>
+  <script src="../vendors/jqvmap/examples/js/jquery.vmap.sampledata.js"></script>
+  <!-- bootstrap-daterangepicker -->
+  <script src="../vendors/moment/min/moment.min.js"></script>
+  <script src="../vendors/bootstrap-daterangepicker/daterangepicker.js"></script>
+  <!-- Custom Theme Scripts -->
+  <script src="../build/js/custom.min.js"></script>
+</body>
+
+</html>
