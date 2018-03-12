@@ -646,6 +646,31 @@ a:hover, a:focus {
   color: #93A2B2;
   margin-bottom: 0 !important;
 }
+.main_search {
+  padding: 0;
+}
+.main_search .form-control {
+  border-right: 0;
+  box-shadow: inset 0 1px 0px rgba(0, 0, 0, 0.075);
+  border-radius: 25px 0px 0px 25px;
+  padding-left: 20px;
+  border: 1px solid rgba(221, 226, 232, 0.49);
+}
+.main_search .form-control:focus {
+  border: 1px solid rgba(221, 226, 232, 0.49);
+  border-right: 0;
+}
+.main_search .input-group-btn button {
+  border-radius: 0px 25px 25px 0px;
+  border: 1px solid rgba(221, 226, 232, 0.49);
+  border-left: 0;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  color: #93A2B2;
+  margin-bottom: 0 !important;
+}
+
+
+
 .toggle {
   float: left;
   margin: 0;
@@ -1626,6 +1651,15 @@ span.right {
 .dashboard_graph .col-md-9, .dashboard_graph .col-md-3 {
   padding: 0;
 }
+
+.results_meter {
+  background: #fff;
+  padding: 7px 10px;
+}
+.results_meter .col-md-9, .results_meter .col-md-3 {
+  padding: 0;
+}
+
 a.user-profile {
   color: #5E6974 !important;
 }
@@ -2703,6 +2737,15 @@ ul.social li {
   margin: 0;
   font-weight: normal;
 }
+
+.results_meter .x_title {
+  padding: 5px 5px 7px;
+}
+.results_meter .x_title h3 {
+  margin: 0;
+  font-weight: normal;
+}
+
 .chart {
   position: relative;
   display: inline-block;
@@ -4205,6 +4248,10 @@ fieldset {
 }
 
 .dashboard_graph p {
+  margin: 0 0 4px;
+}
+
+.results_meter p {
   margin: 0 0 4px;
 }
 
